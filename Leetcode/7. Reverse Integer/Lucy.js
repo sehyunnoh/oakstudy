@@ -19,7 +19,7 @@
         strReversed += strX[i]
     }
     
-    const reversedX = parseInt(strReversed)
+    const reversedX = +strReversed;
     
     if(reversedX < -2147483648 || reversedX > 2147483647) {
         return 0
