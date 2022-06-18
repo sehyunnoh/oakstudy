@@ -4,7 +4,7 @@
  */
  var reverse = function(x) {
     
-    const strX = x.toString()
+    const strX = ''+x;
     
     let strReversed = ''
     let end =  0
