@@ -13,7 +13,7 @@ class Solution:
             if len(s) <= 1:
                 return 0
             s = s[1:]
-        pattern = '[a-zA-Z+-. ]'
+        pattern = '[a-zA-Z+-.]'
         if re.findall(pattern, s):
             s = re.split(pattern, s)[0]
             if len(s) == 0:
